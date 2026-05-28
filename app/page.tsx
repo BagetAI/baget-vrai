@@ -1,4 +1,3 @@
-export const runtime = "edge";
 import { readFileSync } from "node:fs";
 const data = readFileSync("package.json", "utf-8");
 export default function Page() {
